@@ -36,6 +36,6 @@ The core was fully verified using an industry-standard RTL simulator. The testbe
 ***Buffer Safety: When `pcie_ready` drops to 0, the internal FIFO safely stores up to 4 elements before raising the `alarm_preplnenia` flag.
 
  How to Run
-1. Clone this repository: git clone => "https://github.com/jozefdmr-prog/Smartic_hardware_filter.git" 
-2. Load the files into your favorite simulator (ModelSim, Vivado, or EDA Playgrounds).
-3. Run `smartnic_vstupny_filter_tb` to view the digital waveform.
+
+1. Load the files into your favorite simulator (ModelSim, Vivado, or EDA Playgrounds).
+2. Run `smartnic_vstupny_filter_tb` to view the digital waveform.
